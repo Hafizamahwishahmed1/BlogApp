@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Blogging App - Signup Page</title>
+</head>
+<body>
+        <div class="navbar bg-body-tertiary">
+            <img src=".//assets/logo.png" alt="Logo" width="50" height="50" class="logo">
+            <div class="logotextt">logging App</div>
+            <div>
+                <button class="btnnLOGIN btn-outline-success" type="login">login</button>
+            </div>
+        </div>
+        
+        <div class="main-container">
+            <form class="form">
+                <div class="form-group">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" class="form-control" placeholder="First name" aria-label="First name" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" class="form-control" placeholder="Last name" aria-label="Last name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" class="form-control" placeholder="Email" aria-label="Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" class="form-control" placeholder="Password" aria-label="Password" required>
+                </div>
+                <button id="registerBtn" type="submit" class="btn2 btn-primary">Signup</button>
+            </form>
+        </div>
+        
+     <script src="app.js" type="module"></script>
+</body>
+</html>

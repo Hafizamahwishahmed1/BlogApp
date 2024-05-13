@@ -1,0 +1,560 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+/* body{
+   background-color: #007bff;
+} */
+
+.navbar {
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5vh 10vh;
+    background-color: black;
+    border-bottom: 0.5px solid white;
+}
+
+/* .logo {
+    margin-right: 105px;
+} */
+
+.LOGOtext {
+    
+     margin-block-end: -3vh; 
+     margin-left: -155vh; 
+    font-weight: 700;
+    font-size: 3vh;
+    color: white;
+    position:sticky;
+} 
+
+.btnSIGNUP {
+
+    padding: 7px 2vh;
+    margin-right: 5vh;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid white; 
+    color: white; 
+    font-size: 3vh;
+    background-color: transparent;
+}
+
+
+
+.btnSIGNUP:hover {
+    background-color: #E94B3CFF;; 
+    color: #ffffff; 
+}
+
+.btnnLOGIN{
+    padding: 7px 2vh;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid white; 
+    color: white; 
+    font-size: 3vh;
+    background-color: transparent;
+
+}
+
+.btnnLOGIN:hover {
+    background-color: #E94B3CFF;; 
+    color: #ffffff; 
+} 
+
+.dashboard-container{
+    width: 100%;
+    height: 20vh;
+    background-color: #E94B3CFF;
+}
+
+.textt{
+    padding-top: 4vh;
+    margin-left: 28vh;
+    font-size: 10vh;
+    font-weight: 700;
+    color: white;
+}
+
+.all-blog{
+    padding-top: 10vh;
+    margin-left: 28vh;
+    font-size: 7vh;
+    font-weight: 700;
+    color: black;
+}
+
+
+.blog1{
+    width: 170vh;
+    margin-top: 7vh;
+    margin-left: 28vh;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    padding-bottom: 20px;
+    color: white;
+    opacity: 90%;
+}
+
+.img{
+    padding: 20px;
+    opacity: 100%;
+
+}
+
+.topic{
+    font-size: 4vh;
+    margin-top: -16.5vh;
+    margin-left: 17vh;
+    font-weight: 600;
+    opacity: 100%;
+
+}
+
+.owner{
+    font-size: 2.5vh;
+    margin-left: 17vh;
+    font-weight: 600;
+    opacity: 100%;
+}
+
+.material{
+    padding: 5vh;
+    font-size: 3.5vh;
+    line-height: 7vh;
+    opacity: 100%;
+
+}
+
+.edit-btn{
+    margin-left: 5vh;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color :#E94B3CFF;
+    color: black;
+    cursor: pointer;
+    opacity: 100%;
+}
+
+
+.blog2{
+    opacity: 90%;
+    width: 170vh;
+    margin-top: 7vh;
+    margin-left: 28vh;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    padding-bottom: 20px;
+    color: white;
+}  
+
+.img2{
+    padding: 20px;
+    opacity: 100%;
+
+}
+
+.topic2{
+    font-size: 4vh;
+    margin-top: -16.5vh;
+    margin-left: 17vh;
+    font-weight: 600;
+    opacity: 100%;
+
+}
+
+.owner2{
+    font-size: 2.5vh;
+    margin-left: 17vh;
+    font-weight: 600;
+    opacity: 100%;
+}
+
+.material2{
+    padding: 5vh;
+    font-size: 3.5vh;
+    line-height: 7vh;
+    opacity: 100%;
+
+}
+
+
+
+/* <----------Blogging App - User Blogs---------> */
+
+ .back-to-all-blogs{
+    padding-top: 10vh;
+    margin-left: 28vh;
+    font-size: 6vh;
+    font-weight: 700;
+    color: white;
+}
+
+.user-detail{
+    margin-left: 182vh;
+    margin-top: 10vh;
+    font-size: 3.5vh;
+    font-weight: 600;
+    
+}
+
+.user-dp{
+    padding-top: 2vh;
+} 
+
+.blog5{
+    width: 140vh;
+    margin-top: -48vh;
+    margin-left: 28vh;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    padding-bottom: 20px;
+    color: white;
+    opacity: 90%;
+}
+
+ 
+.blog6{
+    width: 140vh;
+    margin-top: 8vh;
+    margin-left: 28vh;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    opacity: 90%;
+    padding-bottom: 20px;
+}
+
+.blog7{
+    width: 140vh;
+    margin-top: 8vh;
+    margin-left: 28vh;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    opacity: 90%;
+    padding-bottom: 20px;
+} 
+
+/* <--------------Signup Page-------------> */
+
+.logotextt{
+    margin-block-end: -3vh; 
+    margin-left: -177.5vh; 
+   font-weight: 700;
+   font-size: 3vh;
+   color: white;
+   position:sticky;
+
+}
+
+.main-container {
+    width: 30%;
+    margin-top: 7vh;
+    margin-left: 80vh;
+    background-color: black;
+    border-radius: 2vh;
+    color: white;
+    opacity: 90%;
+   
+}
+
+.form {
+    padding: 35px;
+    border: 2px solid #E94B3CFF;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn2 {
+    margin-left: 19vh;
+    margin-top: 2vh;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #E94B3CFF;
+    color: black;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: transparent; 
+    color: #ffffff; 
+    border: 1px solid #ccc;
+    
+
+}
+
+/* /* <===============login page================> */
+
+.main-container2 {
+    width: 30%;
+    margin-top: 15vh;
+    margin-left: 80vh;
+    background-color: black;
+    border-radius: 2vh;
+    color: white;
+    opacity: 90%;
+   
+}
+
+/* /* <===============Dashboard page================> */
+
+.logo-textt{
+    margin-block-end: -3vh; 
+    margin-left: -172.5vh; 
+   font-weight: 700;
+   font-size: 3vh;
+   color: white;
+   position:sticky;
+
+}
+
+.dashboard-form {
+    width: 170vh;
+    margin-top: 10vh;
+    margin-left: 28vh;
+    padding: 40px;
+    border: 2px solid #E94B3CFF;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.control-form {
+    width: 150vh;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #E94B3CFF;
+    font-size: 3vh;
+}
+
+.comment{
+    width: 150vh;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #E94B3CFF;
+    height: 20vh;
+    padding-bottom: 13vh;
+    font-size: 3vh;
+}
+
+.publish-btn{
+     margin-top: 1vh;
+     padding: 10px 20px;
+     border-radius: 5px;
+     border: none;
+     background-color: #E94B3CFF;
+     color: black;
+     cursor: pointer;
+ }
+
+ .publish-btn:hover {
+    background-color: transparent; 
+    color: #ffffff; 
+    border: 1px solid #ccc;
+ }
+
+ .my-blog{
+    padding-top: 70vh;
+    margin-left: 28vh;
+    font-size: 7vh;
+    font-weight: 700;
+    color: black;
+}
+
+.blog3{
+    width: 170vh;
+    margin-top: 5vh;
+    margin-left: 28vh;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    padding-bottom: 20px;
+    color: white;
+    opacity: 90%;
+}
+ 
+.img{
+    padding: 20px;
+
+}
+
+.topic{
+    font-size: 4vh;
+    margin-top: -16.5vh;
+    margin-left: 17vh;
+    font-weight: 600;
+
+}
+
+.owner{
+    font-size: 2.5vh;
+    margin-left: 17vh;
+    font-weight: 600;
+}
+
+.material{
+    padding: 5vh;
+    font-size: 3.5vh;
+    line-height: 7vh;
+
+}
+
+.edit-btn{
+    margin-left: 5vh;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color :#E94B3CFF;
+    color: black;
+    cursor: pointer;
+}
+
+.delete-btn{
+    margin-left: 2vh;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #E94B3CFF;
+    color: black;
+    cursor: pointer;
+}
+
+.blog4{
+    width: 170vh;
+    margin-top: 10vh;
+    margin-left: 28vh;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    padding-bottom: 20px;
+    color: white;
+    opacity: 90%;
+} 
+
+.img2{
+    padding: 20px;
+
+}
+
+.topic2{
+    font-size: 4vh;
+    margin-top: -16.5vh;
+    margin-left: 17vh;
+    font-weight: 600;
+
+}
+
+.owner2{
+    font-size: 2.5vh;
+    margin-left: 17vh;
+    font-weight: 600;
+}
+
+.material2{
+    padding: 5vh;
+    font-size: 3.5vh;
+    line-height: 7vh;
+
+}
+
+.edit-btn2{
+    margin-left: 5vh;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #E94B3CFF;
+    color: black;
+    cursor: pointer;
+}
+
+.delete-btn2{
+    margin-left: 2vh;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #E94B3CFF;
+    color: black;
+    cursor: pointer;
+}
+
+
+/* <===============Profile Page===========> */
+
+.main-container3{
+    width: 30%;
+    margin-top: 7vh;
+    margin-left: 80vh;
+    padding-top: 5vh;
+
+}
+
+.pform {
+    padding: 30px;
+    border: 2px solid #E94B3CFF;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.dp{
+    margin-left: 18vh;
+    
+}
+
+.profile-name{
+    font-size: 4vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 1vh;
+    font-weight: 700;
+}
+
+
+.profile-form-group {
+    margin-top: 5vh;
+}
+
+.btn3{
+    margin-left: 17vh;
+    margin-top: 5vh;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #E94B3CFF;
+    color: black;
+    cursor: pointer;
+}
+
+.btn3:hover{
+     background-color: transparent; 
+    color: #ffffff; 
+    border: 1px solid #ccc;
+}
